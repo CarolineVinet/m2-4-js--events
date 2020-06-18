@@ -1,3 +1,5 @@
-// Exercise 1.0
-// ------------
-console.log('exercise-1');
+const message = document.querySelector("body");
+
+addEventListener("click", function () {
+  message.innerText = "You Win!";
+});
